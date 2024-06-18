@@ -1,0 +1,29 @@
+.weather-display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: skyblue;
+ 
+  }
+  
+  .weather-display p {
+    font-size: 1.5rem;
+    width: 30%;
+    background-color: skyblue;
+    
+  }
+  
+  .divider {
+    width: 80vw;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid white;
+    margin-left: 200px; /* Adjust as needed */
+    background-color: skyblue;
+  }
+  

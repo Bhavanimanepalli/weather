@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Dashboard from "./Components/Dashboard";
 import Search from "./Components/Search";
 import Weatherdisplay from "./Components/Weatherdisplay";
 import { createContext, useState } from "react";
 import { BrowserRouter,Route,Routes } from "react-router-dom";
-import { ToastContainer } from "react-bootstrap"; 
+import { ToastContainer } from 'react-bootstrap';
 import FavouriteCities from "./Components/Favourite";
+
 
 
 export const context = createContext();
@@ -47,4 +48,5 @@ function App() {
     </div>
   );
 }
+export default App
 

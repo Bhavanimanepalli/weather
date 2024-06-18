@@ -78,7 +78,8 @@ export default function Search() {
 
   return (
     <>
-      <h1 style={{ textAlign: "center" }}>Weather Forecast</h1>
+     <h1 style={{ textAlign: "center" }}>Weather Forecast</h1>
+
       <div className="search-container">
         <input
           type="text"
